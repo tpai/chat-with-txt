@@ -2,6 +2,16 @@
 
 This script allows you to ask a question to txt files using the ChatOpenAI model.
 
+## Prerequisites
+
+Before running the script, you need to set up the following:
+
+1. Obtain an API key from OpenAI: To use the ChatOpenAI model, you need to have an API key.
+
+2. Set the `OPENAI_API_KEY` environment variable: Once you have your API key, you need to set it as an environment variable on your system.
+
+This will be used for text embedding and LLM tasks.
+
 ## Usage
 
 ```sh
