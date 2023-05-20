@@ -1,0 +1,13 @@
+Q: What's the name of this API?
+A: JSONPlaceholder, free fake API for testing and prototyping.
+
+Q: Is there any ratelimit for the APIs?
+A: No mentioned in the document, please use the API carefully.
+
+Q: How many available nested routes are there?
+A: There are five of them: 
+    /posts/1/comments
+    /albums/1/photos
+    /users/1/albums
+    /users/1/todos
+    /users/1/posts

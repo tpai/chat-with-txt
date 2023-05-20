@@ -1,0 +1,48 @@
+API Name: Getting a resource
+URL: https://jsonplaceholder.typicode.com/posts/:postId
+Method: GET
+
+API Name: Listing all resources
+URL: https://jsonplaceholder.typicode.com/posts
+Method: GET
+
+API Name: Creating a resource
+URL: https://jsonplaceholder.typicode.com/posts
+Method: POST
+Request Body:
+{
+  title: 'foo',
+  body: 'bar',
+  userId: 1,
+}
+
+API Name: Updating a resource
+URL: https://jsonplaceholder.typicode.com/posts/:postId
+Method: PUT
+Request Body:
+{
+  id: 1,
+  title: 'foo',
+  body: 'bar',
+  userId: 1,
+}
+
+API Name: Patching a resource
+URL: https://jsonplaceholder.typicode.com/posts/:postId
+Method: PATCH
+Reqeust Body:
+{
+  title: 'foo'
+}
+
+API Name: Deleting a resource
+URL: https://jsonplaceholder.typicode.com/posts/:postId
+Method: DELETE
+
+API Name: Filtering resources
+URL: https://jsonplaceholder.typicode.com/posts?userId=:userId
+Method: GET
+
+API Name: Listing nested resources
+URL: https://jsonplaceholder.typicode.com/posts/:postId/comments
+Method: GET
